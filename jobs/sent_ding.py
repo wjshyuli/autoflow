@@ -30,7 +30,7 @@ def sent_ding(url,text):
 
 
 def sent_ding_f3(num1,num2,num3):
-    now = datetime .now()
+    now = datetime .now().replace(microsecond=0,second=0)
     today=now.date()
     hour2=now.hour
     hour1=(now-timedelta(hours=1)).hour
