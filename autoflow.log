@@ -1,0 +1,242 @@
+2026-07-24 22:16:32.085 | INFO     | __main__:check_mold:13 - 200
+2026-07-24 22:17:13.541 | INFO     | __main__:check_mold:13 - 200
+2026-07-24 22:18:40.415 | INFO     | __main__:check_mold:14 - 200
+2026-07-24 22:19:21.947 | INFO     | __main__:check_mold:14 - 200
+2026-07-24 22:20:48.986 | INFO     | __main__:check_mold:15 - 200
+2026-07-24 22:21:57.360 | INFO     | __main__:check_mold:15 - 200
+2026-07-24 22:22:30.852 | INFO     | __main__:check_mold:15 - 200
+2026-07-24 22:22:45.987 | INFO     | __main__:check_mold:15 - 200
+2026-07-24 22:23:16.199 | INFO     | __main__:check_mold:15 - 200
+2026-07-24 22:28:16.544 | INFO     | __main__:check_mold:15 - 200
+2026-07-24 22:29:25.836 | INFO     | __main__:check_mold:15 - 200
+2026-07-24 22:31:14.829 | INFO     | __main__:check_mold:15 - 200
+2026-07-24 22:31:34.642 | INFO     | __main__:check_mold:15 - 200
+2026-07-24 22:32:19.412 | INFO     | __main__:check_mold:15 - 200
+2026-07-24 22:33:13.958 | INFO     | __main__:check_mold:15 - 200
+2026-07-24 22:34:11.809 | INFO     | __main__:check_mold:15 - 200
+2026-07-24 22:36:28.402 | INFO     | __main__:check_mold:11 - 200
+2026-07-24 22:36:42.373 | INFO     | __main__:check_mold:11 - 200
+2026-07-24 22:37:39.379 | INFO     | __main__:check_mold:11 - 200
+2026-07-24 22:38:01.112 | INFO     | __main__:check_mold:11 - 200
+2026-07-24 22:38:28.690 | INFO     | __main__:check_mold:11 - 200
+2026-07-24 22:52:37.817 | INFO     | __main__:check_mold_f:37 - 200
+2026-07-24 22:52:40.444 | INFO     | __main__:check_mold_f:37 - 200
+2026-07-24 22:54:38.577 | INFO     | __main__:check_mold_f:37 - 200
+2026-07-24 22:54:40.709 | INFO     | __main__:check_mold_f:37 - 200
+2026-07-24 22:54:42.134 | INFO     | __main__:check_mold_f:37 - 200
+2026-07-24 22:54:42.695 | INFO     | __main__:check_mold_f:37 - 200
+2026-07-25 08:25:21.955 | INFO     | __main__:check_output_f3_1:9 - 三分厂胎胚库存检查
+2026-07-25 08:25:22.977 | INFO     | __main__:check_output_f3_1:12 - 200
+2026-07-25 08:26:55.643 | INFO     | __main__:check_output_f3_1:9 - 三分厂胎胚库存检查
+2026-07-25 08:26:56.627 | INFO     | __main__:check_output_f3_1:12 - 200
+2026-07-25 08:39:12.815 | INFO     | __main__:check_output_f3_1:9 - 三分厂胎胚库存检查
+2026-07-25 08:39:13.676 | INFO     | __main__:check_output_f3_1:12 - 200
+2026-07-25 08:39:56.020 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 08:39:56.164 | INFO     | __main__:check_output_f3_2:23 - 200
+2026-07-25 08:44:07.014 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 08:44:07.261 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 08:44:57.309 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 08:44:57.524 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 08:45:07.221 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 08:45:07.445 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 08:54:46.161 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 08:54:46.401 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 08:54:52.735 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 08:54:52.956 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 14:50:28.875 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 14:50:29.133 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 14:52:31.397 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 14:52:31.690 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 14:53:43.329 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 14:53:43.577 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 14:53:54.169 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 14:53:54.446 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 14:55:09.828 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 14:55:10.132 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 14:55:56.948 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 14:55:57.210 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 14:56:20.892 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 14:56:21.158 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 15:01:41.350 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 15:01:41.635 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 15:02:56.304 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 15:02:56.568 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 15:03:40.783 | INFO     | __main__:check_output_f3_2:20 - 三分厂成型二段产量检查
+2026-07-25 15:03:41.073 | INFO     | __main__:check_output_f3_2:28 - 200
+2026-07-25 15:34:01.403 | INFO     | __main__:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-25 15:34:01.782 | INFO     | __main__:check_output_f3_2:34 - 200
+2026-07-25 15:34:48.785 | INFO     | __main__:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-25 15:34:49.251 | INFO     | __main__:check_output_f3_2:34 - 200
+2026-07-25 15:35:09.864 | INFO     | __main__:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-25 15:35:10.335 | INFO     | __main__:check_output_f3_2:34 - 200
+2026-07-25 15:36:07.143 | INFO     | __main__:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-25 15:36:08.096 | INFO     | __main__:check_output_f3_2:34 - 200
+2026-07-25 16:32:35.646 | INFO     | __main__:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-25 16:32:35.921 | INFO     | __main__:check_output_f3_2:32 - 200
+2026-07-25 16:38:11.130 | INFO     | __main__:check_output_f3_3:7 - 三分厂硫化产量检查
+2026-07-25 16:38:27.668 | INFO     | __main__:check_output_f3_3:7 - 三分厂硫化产量检查
+2026-07-25 16:38:29.030 | INFO     | __main__:check_output_f3_3:65 - 200
+2026-07-25 16:38:59.915 | INFO     | __main__:check_output_f3_3:7 - 三分厂硫化产量检查
+2026-07-25 16:39:00.884 | INFO     | __main__:check_output_f3_3:65 - 200
+2026-07-25 16:44:05.229 | INFO     | __main__:check_output_f3_3:7 - 三分厂硫化产量检查
+2026-07-25 16:44:06.612 | INFO     | __main__:check_output_f3_3:65 - 200
+2026-07-25 16:44:47.215 | INFO     | __main__:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-25 16:44:47.439 | INFO     | __main__:check_output_f3_2:32 - 200
+2026-07-25 16:46:00.746 | INFO     | __main__:check_output_f3_3:7 - 三分厂硫化产量检查
+2026-07-25 16:46:04.887 | INFO     | __main__:check_output_f3_3:29 - 200
+2026-07-25 16:49:08.189 | INFO     | __main__:check_output_f3_3:7 - 三分厂硫化产量检查
+2026-07-25 16:49:09.332 | INFO     | __main__:check_output_f3_3:35 - 200
+2026-07-25 16:49:33.267 | INFO     | __main__:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-25 16:49:33.736 | INFO     | __main__:check_output_f3_2:32 - 200
+2026-07-25 16:50:46.035 | INFO     | __main__:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-25 16:50:46.255 | INFO     | __main__:check_output_f3_2:32 - 200
+2026-07-25 16:51:05.632 | INFO     | __main__:check_output_f3_3:45 - 三分厂硫化产量检查
+2026-07-25 16:51:07.001 | INFO     | __main__:check_output_f3_3:64 - 200
+2026-07-25 16:55:26.466 | INFO     | __main__:check_output_f3_3:45 - 三分厂硫化产量检查
+2026-07-25 16:55:29.468 | INFO     | __main__:check_output_f3_3:76 - 200
+2026-07-26 22:27:16.782 | INFO     | jobs.check_mes:check_output_f3_1:10 - 三分厂胎胚库存检查
+2026-07-26 22:27:17.728 | INFO     | jobs.check_mes:check_output_f3_1:13 - 200
+2026-07-26 22:27:17.729 | INFO     | jobs.check_mes:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-26 22:27:17.994 | INFO     | jobs.check_mes:check_output_f3_2:32 - 200
+2026-07-26 22:27:17.995 | INFO     | jobs.check_mes:check_output_f3_3:45 - 三分厂硫化产量检查
+2026-07-26 22:27:19.125 | INFO     | jobs.check_mes:check_output_f3_3:64 - 200
+2026-07-26 22:27:19.140 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 22:27:19.537 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 22:29:53.484 | INFO     | jobs.check_mes:check_output_f3_1:10 - 三分厂胎胚库存检查
+2026-07-26 22:29:54.910 | INFO     | jobs.check_mes:check_output_f3_1:13 - 200
+2026-07-26 22:29:54.912 | INFO     | jobs.check_mes:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-26 22:29:55.305 | INFO     | jobs.check_mes:check_output_f3_2:32 - 200
+2026-07-26 22:29:55.306 | INFO     | jobs.check_mes:check_output_f3_3:45 - 三分厂硫化产量检查
+2026-07-26 22:29:57.065 | INFO     | jobs.check_mes:check_output_f3_3:64 - 200
+2026-07-26 22:29:57.079 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 22:29:57.523 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 22:31:36.243 | INFO     | __main__:check_mold_f:87 - 200
+2026-07-26 22:31:39.245 | INFO     | __main__:check_mold_f:87 - 200
+2026-07-26 22:31:41.157 | INFO     | __main__:check_mold_f:87 - 200
+2026-07-26 22:31:42.028 | INFO     | __main__:check_mold_f:87 - 200
+2026-07-26 22:34:44.476 | INFO     | __main__:check_mold_f:87 - 200
+2026-07-26 22:34:46.694 | INFO     | __main__:check_mold_f:87 - 200
+2026-07-26 22:34:48.531 | INFO     | __main__:check_mold_f:87 - 200
+2026-07-26 22:34:49.136 | INFO     | __main__:check_mold_f:87 - 200
+2026-07-26 22:39:22.198 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:39:24.467 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:39:26.099 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:39:26.689 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:39:26.692 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 22:39:27.221 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 310000, 'errmsg': '错误描述:关键词不匹配;解决方案:请联系群管理员查看此机器人的关键词，并在发送的信息中包含此关键词;'}
+2026-07-26 22:42:47.311 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:42:50.112 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:42:51.907 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:42:52.838 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:42:52.840 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 22:42:53.197 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 22:44:20.048 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:44:22.598 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:44:24.128 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:44:24.786 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:44:24.787 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 22:44:25.120 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 22:45:32.129 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:45:34.695 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:45:36.272 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:45:36.835 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:45:36.835 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 22:45:37.684 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 22:53:03.918 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:53:15.598 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:53:17.634 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:53:18.598 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:54:08.957 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:54:11.857 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:54:13.733 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:54:14.555 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:55:00.435 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:55:03.500 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:55:05.506 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:55:06.406 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:55:16.045 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:55:18.896 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:55:20.806 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:55:21.634 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:55:21.637 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 22:55:22.520 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 22:59:56.163 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 22:59:58.875 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:00:01.820 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:00:02.501 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:00:02.503 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:00:02.882 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:01:33.717 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:01:36.345 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:01:37.800 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:01:38.983 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:01:38.986 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:01:39.694 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:01:53.613 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:01:56.070 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:01:57.570 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:01:58.125 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:01:58.128 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:01:58.445 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:02:37.200 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:02:39.611 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:02:41.094 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:02:41.648 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:02:41.651 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:02:41.970 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:04:38.136 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:04:40.622 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:04:42.418 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:04:43.055 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:04:43.056 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:04:43.434 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:39:13.746 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:39:17.050 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:39:18.882 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:39:19.662 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:39:19.665 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:39:20.093 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:39:20.094 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:39:20.416 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:39:20.417 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:39:20.749 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:39:20.750 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:39:21.067 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:39:21.068 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:39:21.388 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 310000, 'errmsg': '错误描述:关键词不匹配;解决方案:请联系群管理员查看此机器人的关键词，并在发送的信息中包含此关键词;'}
+2026-07-26 23:42:23.314 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:42:26.114 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:42:27.823 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:42:28.443 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:42:28.445 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:42:28.811 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:42:28.812 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:42:29.129 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:42:29.130 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:42:29.450 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:42:29.451 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:42:29.768 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:42:29.769 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:42:30.083 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 310000, 'errmsg': '错误描述:关键词不匹配;解决方案:请联系群管理员查看此机器人的关键词，并在发送的信息中包含此关键词;'}
+2026-07-26 23:49:33.430 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:49:36.102 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:49:37.564 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:49:38.193 | INFO     | jobs.check_mes:check_mold_f:87 - 200
+2026-07-26 23:49:38.196 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:49:38.578 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:49:38.580 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:49:38.886 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:49:38.887 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:49:39.194 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:49:39.195 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:49:39.514 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-26 23:49:39.514 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:49:39.822 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 310000, 'errmsg': '错误描述:关键词不匹配;解决方案:请联系群管理员查看此机器人的关键词，并在发送的信息中包含此关键词;'}
+2026-07-26 23:51:12.803 | INFO     | jobs.check_mes:check_output_f3_1:10 - 三分厂胎胚库存检查
+2026-07-26 23:51:13.886 | INFO     | jobs.check_mes:check_output_f3_1:13 - 200
+2026-07-26 23:51:13.888 | INFO     | jobs.check_mes:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-26 23:51:14.113 | INFO     | jobs.check_mes:check_output_f3_2:32 - 200
+2026-07-26 23:51:14.114 | INFO     | jobs.check_mes:check_output_f3_3:45 - 三分厂硫化产量检查
+2026-07-26 23:51:15.389 | INFO     | jobs.check_mes:check_output_f3_3:64 - 200
+2026-07-26 23:51:15.405 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
+2026-07-26 23:51:15.736 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}

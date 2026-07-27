@@ -1,0 +1,12 @@
+services:
+  autoflow:
+    build: .
+    container_name: autoflow
+
+    ports:
+      - "9002:9000"
+
+    restart: always
+
+    volumes:
+      - ./logs:/app/logs
