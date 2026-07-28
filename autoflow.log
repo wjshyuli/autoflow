@@ -306,3 +306,11 @@
 2026-07-29 00:44:58.732 | INFO     | jobs.check_mes:check_output_f3_3:72 - 200
 2026-07-29 00:44:58.746 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
 2026-07-29 00:44:59.072 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-29 01:04:17.307 | INFO     | jobs.check_mes:check_output_f3_1:10 - 三分厂胎胚库存检查
+2026-07-29 01:04:18.207 | INFO     | jobs.check_mes:check_output_f3_1:13 - 200
+2026-07-29 01:04:18.209 | INFO     | jobs.check_mes:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-29 01:04:18.421 | INFO     | jobs.check_mes:check_output_f3_2:32 - 200
+2026-07-29 01:04:18.422 | INFO     | jobs.check_mes:check_output_f3_3:54 - 三分厂硫化产量检查
+2026-07-29 01:04:20.048 | INFO     | jobs.check_mes:check_output_f3_3:73 - 200
+2026-07-29 01:04:20.064 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-07-29 01:04:20.602 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}

@@ -46,6 +46,7 @@ def check_output_f3_2():
             machine_list.append(f"{item["SbName"]}:{item['Sl']}")
             # print(f"{item['SbName']}:{item['Sl']}") 
     avg=account/avg1
+    print(avg1)
     avg=round(avg)
     return account,machine_list,avg
     

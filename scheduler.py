@@ -12,7 +12,7 @@ def start():
     scheduler.add_job(
         job1,
         "cron",
-        minute="0",
+        minute="15",
         id="job1",
         name="三分厂产量推送任务"
     )
