@@ -42,7 +42,7 @@ def sent_ding_f3(num1,num2,num3,machine_list,avg):
 
     text=f"### {now} 产量推送：\n\n 时间范围：{hour1}到{hour2}点  \n\n 成型产量：{num1}  \n\n 胎胚库存：{num2} \n\n 硫化产量：{num3}\n\n ---\n\n---\n\n成型产量\n\n {str1}\n\n合计：{num1}\n\n平均:{avg}\n\n"
     
-    sent_ding(url=webhooktest,text=text)
+    sent_ding(url=webhook1,text=text)
 
 
 def sent_ding_mold(text_list):
