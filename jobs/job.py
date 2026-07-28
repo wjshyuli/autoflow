@@ -5,9 +5,10 @@ from jobs.sent_ding import sent_ding_f3,sent_ding_mold,sent_ding_mold_f4
 def job1():
     try:
         a=check_output_f3_1()
-        b=check_output_f3_2()
+        b,machine_list,avg=check_output_f3_2()
+        print(machine_list)
         c=check_output_f3_3()
-        sent_ding_f3(b,a,c)
+        sent_ding_f3(b,a,c,machine_list,avg)
     except Exception as e:
         logger.exception(e)
 

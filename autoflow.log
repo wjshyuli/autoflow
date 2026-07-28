@@ -240,3 +240,69 @@
 2026-07-26 23:51:15.389 | INFO     | jobs.check_mes:check_output_f3_3:64 - 200
 2026-07-26 23:51:15.405 | INFO     | jobs.sent_ding:sent_ding:19 - 发送钉钉消息
 2026-07-26 23:51:15.736 | INFO     | jobs.sent_ding:sent_ding:29 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-28 23:21:32.643 | INFO     | __main__:sent_ding:21 - 发送钉钉消息
+2026-07-28 23:21:33.059 | INFO     | __main__:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-29 00:24:01.945 | INFO     | jobs.check_mes:check_output_f3_1:10 - 三分厂胎胚库存检查
+2026-07-29 00:24:02.914 | INFO     | jobs.check_mes:check_output_f3_1:13 - 200
+2026-07-29 00:24:02.916 | INFO     | jobs.check_mes:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-29 00:24:03.119 | INFO     | jobs.check_mes:check_output_f3_2:32 - 200
+2026-07-29 00:24:03.120 | INFO     | jobs.check_mes:check_output_f3_3:48 - 三分厂硫化产量检查
+2026-07-29 00:24:04.825 | INFO     | jobs.check_mes:check_output_f3_3:67 - 200
+2026-07-29 00:24:04.838 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-07-29 00:24:05.273 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-29 00:25:29.264 | INFO     | jobs.check_mes:check_output_f3_1:10 - 三分厂胎胚库存检查
+2026-07-29 00:25:30.281 | INFO     | jobs.check_mes:check_output_f3_1:13 - 200
+2026-07-29 00:25:30.283 | INFO     | jobs.check_mes:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-29 00:25:30.532 | INFO     | jobs.check_mes:check_output_f3_2:32 - 200
+2026-07-29 00:25:30.533 | INFO     | jobs.check_mes:check_output_f3_3:48 - 三分厂硫化产量检查
+2026-07-29 00:25:32.062 | INFO     | jobs.check_mes:check_output_f3_3:67 - 200
+2026-07-29 00:25:32.075 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-07-29 00:25:32.402 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-29 00:26:32.171 | INFO     | jobs.check_mes:check_output_f3_1:10 - 三分厂胎胚库存检查
+2026-07-29 00:26:33.036 | INFO     | jobs.check_mes:check_output_f3_1:13 - 200
+2026-07-29 00:26:33.038 | INFO     | jobs.check_mes:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-29 00:26:33.300 | INFO     | jobs.check_mes:check_output_f3_2:32 - 200
+2026-07-29 00:26:33.301 | INFO     | jobs.check_mes:check_output_f3_3:48 - 三分厂硫化产量检查
+2026-07-29 00:26:34.640 | INFO     | jobs.check_mes:check_output_f3_3:67 - 200
+2026-07-29 00:26:34.646 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-07-29 00:26:35.067 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-29 00:31:56.713 | INFO     | jobs.check_mes:check_output_f3_1:10 - 三分厂胎胚库存检查
+2026-07-29 00:31:57.561 | INFO     | jobs.check_mes:check_output_f3_1:13 - 200
+2026-07-29 00:31:57.562 | INFO     | jobs.check_mes:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-29 00:31:57.797 | INFO     | jobs.check_mes:check_output_f3_2:32 - 200
+2026-07-29 00:31:57.798 | INFO     | jobs.check_mes:check_output_f3_3:48 - 三分厂硫化产量检查
+2026-07-29 00:31:59.323 | INFO     | jobs.check_mes:check_output_f3_3:67 - 200
+2026-07-29 00:31:59.335 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-07-29 00:31:59.916 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-29 00:36:49.287 | INFO     | jobs.check_mes:check_output_f3_1:10 - 三分厂胎胚库存检查
+2026-07-29 00:36:50.040 | INFO     | jobs.check_mes:check_output_f3_1:13 - 200
+2026-07-29 00:36:50.040 | INFO     | jobs.check_mes:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-29 00:36:50.256 | INFO     | jobs.check_mes:check_output_f3_2:32 - 200
+2026-07-29 00:36:50.256 | INFO     | jobs.check_mes:check_output_f3_3:48 - 三分厂硫化产量检查
+2026-07-29 00:36:51.792 | INFO     | jobs.check_mes:check_output_f3_3:67 - 200
+2026-07-29 00:36:51.802 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-07-29 00:36:52.249 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-29 00:38:43.101 | INFO     | jobs.check_mes:check_output_f3_1:10 - 三分厂胎胚库存检查
+2026-07-29 00:38:43.966 | INFO     | jobs.check_mes:check_output_f3_1:13 - 200
+2026-07-29 00:38:43.967 | INFO     | jobs.check_mes:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-29 00:38:44.267 | INFO     | jobs.check_mes:check_output_f3_2:32 - 200
+2026-07-29 00:38:44.268 | INFO     | jobs.check_mes:check_output_f3_3:48 - 三分厂硫化产量检查
+2026-07-29 00:38:45.586 | INFO     | jobs.check_mes:check_output_f3_3:67 - 200
+2026-07-29 00:38:45.601 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-07-29 00:38:46.074 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-29 00:43:36.440 | INFO     | jobs.check_mes:check_output_f3_1:10 - 三分厂胎胚库存检查
+2026-07-29 00:43:37.349 | INFO     | jobs.check_mes:check_output_f3_1:13 - 200
+2026-07-29 00:43:37.351 | INFO     | jobs.check_mes:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-29 00:43:37.574 | INFO     | jobs.check_mes:check_output_f3_2:32 - 200
+2026-07-29 00:43:37.575 | INFO     | jobs.check_mes:check_output_f3_3:52 - 三分厂硫化产量检查
+2026-07-29 00:43:39.172 | INFO     | jobs.check_mes:check_output_f3_3:71 - 200
+2026-07-29 00:43:39.183 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-07-29 00:43:39.544 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-07-29 00:44:56.045 | INFO     | jobs.check_mes:check_output_f3_1:10 - 三分厂胎胚库存检查
+2026-07-29 00:44:56.881 | INFO     | jobs.check_mes:check_output_f3_1:13 - 200
+2026-07-29 00:44:56.882 | INFO     | jobs.check_mes:check_output_f3_2:21 - 三分厂成型二段产量检查
+2026-07-29 00:44:57.095 | INFO     | jobs.check_mes:check_output_f3_2:32 - 200
+2026-07-29 00:44:57.096 | INFO     | jobs.check_mes:check_output_f3_3:53 - 三分厂硫化产量检查
+2026-07-29 00:44:58.732 | INFO     | jobs.check_mes:check_output_f3_3:72 - 200
+2026-07-29 00:44:58.746 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-07-29 00:44:59.072 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}

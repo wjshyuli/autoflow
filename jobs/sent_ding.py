@@ -2,6 +2,8 @@ from logger import logger
 import requests
 from datetime import datetime, timedelta
 
+
+webhooktest="https://oapi.dingtalk.com/robot/send?access_token=43fbdf590a9c441e4372f0fc6bc2efddf7262a034c2590dcdba7bc180c5502f0"
 # 三分厂产量推送群
 webhook1='https://oapi.dingtalk.com/robot/send?access_token=bd74aace201c4817a74793cc5ef4b92e9e89e4b509b7aee829ae72141fe80591'
 
@@ -12,7 +14,7 @@ webhook4="https://oapi.dingtalk.com/robot/send?access_token=f7e0f06c81adc2193504
 webhook5="https://oapi.dingtalk.com/robot/send?access_token=b83741df7b04f56feaef6ccb86d65c9cfee44fe3312710e2804c2d5bb358b5a4"
 webhook6="https://oapi.dingtalk.com/robot/send?access_token=f6e43029c381bf2335055c18515162fd970e8c124680db06ee0dab037e81605b"
 
-         
+
 
 
 def sent_ding(url,text):
@@ -29,14 +31,18 @@ def sent_ding(url,text):
     logger.info(f"钉钉消息响应：{resp.json()}")
 
 
-def sent_ding_f3(num1,num2,num3):
+def sent_ding_f3(num1,num2,num3,machine_list,avg):
     now = datetime .now().replace(microsecond=0,second=0)
     today=now.date()
     hour2=now.hour
     hour1=(now-timedelta(hours=1)).hour
-    text=f"### {now} 产量推送：\n\n 时间范围：{hour1}到{hour2}点  \n\n 成型产量：{num1}  \n\n 胎胚库存：{num2} \n\n 硫化产量：{num3}"
+    str1=""
+    for item in machine_list:
+        str1+=f'\n\n {item}'
+
+    text=f"### {now} 产量推送：\n\n 时间范围：{hour1}到{hour2}点  \n\n 成型产量：{num1}  \n\n 胎胚库存：{num2} \n\n 硫化产量：{num3}\n\n ---\n\n---\n\n成型产量\n\n {str1}\n\n合计：{num1}\n\n平均:{avg}\n\n"
     
-    sent_ding(url=webhook1,text=text)
+    sent_ding(url=webhooktest,text=text)
 
 
 def sent_ding_mold(text_list):
@@ -73,5 +79,6 @@ def sent_ding_mold_f4(text):
 
 
 
-# if __name__=="__main__":
+if __name__=="__main__":
+    sent_ding_f3(1,2,3)
     

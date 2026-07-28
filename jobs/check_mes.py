@@ -32,14 +32,22 @@ def check_output_f3_2():
     logger.info(res.status_code)
     result=res.json().get("Object")
     account=0
+    avg1=0
+    machine_list=[]
     for item in result:
         if len(item['SbName'])==5:
             account+= item['Sl']
+            avg1+=1
+            machine_list.append(f"{item["SbName"]}:{item['Sl']}")
             # print(f"{item['SbName']}:{item['Sl']}")
         elif len(item['SbName'])==6 and item['SbName'][-1]=='2':
             account+= item['Sl']
+            avg1+=1
+            machine_list.append(f"{item["SbName"]}:{item['Sl']}")
             # print(f"{item['SbName']}:{item['Sl']}") 
-    return account
+    avg=account/avg1
+    avg=round(avg)
+    return account,machine_list,avg
     
 def check_output_f3_3():
     logger.info("三分厂硫化产量检查")

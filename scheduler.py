@@ -20,7 +20,8 @@ def start():
     scheduler.add_job(
         job2,
         "cron",
-        minute="*/15",
+        # minute="*/15",
+        minute="0",
         id="job2",
         name="模具中新推送任务"
     )
