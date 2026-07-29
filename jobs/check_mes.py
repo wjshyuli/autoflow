@@ -76,8 +76,68 @@ def check_output_f3_3():
 
     return account
     
+# 检查当日产量
+def check_output_f3_4():
+    logger.info("today三分厂成型二段产量检查")
+    url='http://10.3.10.64:18080/WebCxsctj/Frm_iQuery'
+    now = datetime .now()
+    if now.hour<7:
+        st=(now-timedelta(days=1)).replace(hour=7,minute=0,second=0,microsecond=0)
+    else:
+        st=now.replace(hour=7,minute=0,second=0,microsecond=0)
+    et=(now+timedelta(hours=8)).replace(microsecond=0) # 防止有些机器时间不对
+    body={
+    "startDate":str(st),
+    "endDate":str(et)
+    }
+    print(body)
+    res=requests.post(url,json=body)
+    logger.info(res.status_code)
+    result=res.json().get("Object")
+    account=0
+    for item in result:
+        if len(item['SbName'])==5:
+            account+= item['Sl']
     
+            
+            
+        elif len(item['SbName'])==6 and item['SbName'][-1]=='2':
+            account+= item['Sl']
+
+    return account
+
     
+def check_output_f3_5():
+    logger.info("当日三分厂硫化产量检查")
+    url='http://10.3.10.64:18080/Weblhscjl/Frm_iQuery'
+    now = datetime .now()
+    if now.hour<7:
+        st=(now-timedelta(days=1)).replace(hour=7,minute=0,second=0,microsecond=0)
+    else:
+        st=now.replace(hour=7,minute=0,second=0,microsecond=0)
+    et=(now+timedelta(hours=8)).replace(microsecond=0) # 防止有些机器时间不对
+
+    
+    body={
+        #   "sczl": 0,
+        #   "bzzl": 0,
+        #   "lhzsj": 0,
+        #   "lhTime": 0,
+        #     "sl": 0,   抓包的时候带的数据
+        "startDate":str(st),
+        "endDate":str(et),
+        "lhlx": "0",       #补码，0不包含，1包含
+        "isbhtm": "1",      #虚拟条码，0不包含，1包含
+
+    }
+    print(body)
+    res=requests.post(url,json=body)
+    logger.info(res.status_code)
+    result=res.json().get("Object")
+    account=len(result)
+
+    return account
+
     
 
 
@@ -119,7 +179,5 @@ def check_mold_f4():
 
 
 
-
-
 if __name__=="__main__":
-    print(check_mold())
+    print(check_output_f3_5())
