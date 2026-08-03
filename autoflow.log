@@ -382,3 +382,7 @@
 2026-07-29 23:20:08.018 | INFO     | jobs.check_mes:check_output_f3_5:135 - 200
 2026-07-29 23:20:08.108 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
 2026-07-29 23:20:08.529 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-03 23:42:44.557 | INFO     | __main__:check_mold_f:156 - 200
+2026-08-03 23:43:43.768 | INFO     | __main__:check_mold_f:156 - 200
+2026-08-03 23:45:41.420 | INFO     | __main__:check_mold_f:156 - 200
+2026-08-03 23:46:06.665 | INFO     | __main__:check_mold_f:156 - 200

@@ -159,7 +159,7 @@ def check_mold_f(url):
                 errors="coerce"
                 ).fillna(0).astype(int)
 
-    df2 = df.loc[df["ys"] < 20, ["sbid","dso","ys"]]
+    df2 = df.loc[(df["ys"]>0) & (df["ys"] < 20), ["sbid","dso","ys"]]
     data=df2.values.tolist()
     print(data)
     return data
@@ -180,4 +180,4 @@ def check_mold_f4():
 
 
 if __name__=="__main__":
-    print(check_output_f3_5())
+    print(check_mold_f("http://10.3.10.62:18080/WebJtggsz/Frm_iQuery"))
