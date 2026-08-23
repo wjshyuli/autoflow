@@ -52,7 +52,7 @@ def sent_ding_mold(text_list):
     text1=text_list[0]
     text11=text
     for item in text1:
-        text11=text11+f'\n\n 机台{item[0]}{item[1]}：计划剩余数：{item[2]}'
+        text11=text11+f'\n\n 机台{item[0]}{item[1]}：计划剩余数：{item[2]} 胎胚库存数：{item[4]}'
     sent_ding(url=webhook2,text=text11)
     #二分厂
     text2=text_list[1]
@@ -64,7 +64,7 @@ def sent_ding_mold(text_list):
     text3=text_list[2]
     text33=text
     for item in text3:
-        text33=text33+f'\n\n 机台{item[0]}{item[1]}：计划剩余数：{item[2]}'
+        text33=text33+f'\n\n 机台{item[0]}{item[1]}：计划剩余数：{item[2]} 胎胚库存数：{item[4]}'
     sent_ding(url=webhook4,text=text33)
 
     text4=text_list[3]

@@ -143,13 +143,49 @@ def check_output_f3_5():
 
     
 #-------mold------
+#这个是查机台规格设置的地址
 url_map={
     1:"http://10.3.10.61:18080/WebJtggsz/Frm_iQuery",
     2:"http://10.3.10.62:18080/WebJtggsz/Frm_iQuery",
     3:"http://10.3.10.64:18080/WebJtggsz/Frm_iQuery",
     4:"http://10.3.10.64:18081/WebJtggsz/Frm_iQuery",
 }
-def check_mold_f(url):
+#这个是查寻当前分厂胎胚库存的地址
+url_map_stock={
+    1:"http://10.3.10.61:18080/WebCxTptj/Frm_iQuery",
+    2:"http://10.3.10.62:18080/WebCxTptj/Frm_iQuery",
+    3:"http://10.3.10.64:18080/WebCxTptj/Frm_iQuery",
+    4:"http://10.3.10.64:18081/WebCxTptj/Frm_iQuery",
+
+}
+
+
+
+#获取当前分厂计划剩余数量的机台规格剩余数
+def check_wlmc(url):
+    # 检查这个规格的胎胚库存，如果小于20就是True，大于等于20就是False
+    # 匹配成功返回 True
+    # 匹配失败返回 False
+
+    
+    body={
+    }
+    res=requests.post(url=url,json=body,timeout=10)
+    res.raise_for_status()
+    res=res.json()
+    #胎胚库存数量
+    stock_dict = {}
+
+    for item in res.get("Object", []):
+        wlmc = item.get("Wlmc")
+        sl = int(item.get("Sl", 0))
+
+        stock_dict[wlmc] = sl
+    return stock_dict
+
+
+
+def check_mold_f(url,stock_dict):
     res=requests.post(url=url,json={})
     result=res.json().get("Object")
     df=pd.DataFrame(result)
@@ -159,17 +195,58 @@ def check_mold_f(url):
                 errors="coerce"
                 ).fillna(0).astype(int)
 
-    df2 = df.loc[(df["ys"]>0) & (df["ys"] < 20), ["sbid","dso","ys"]]
+    df2 = df.loc[  (df["ys"] < 20), ["sbid","dso","ys","wlmc"]]   #设备id，左右模，计划剩余数量
+    
+    result_a = []   #复合计划剩余小于20，胎胚库存量小于20的
+    for index, row in df2.iterrows():
+
+        wlmc = row["wlmc"]
+        sl=stock_dict.get(wlmc,0)
+        if sl <20:
+            row["sl"]=sl
+            result_a.append(row)
+        
+    df2 = pd.DataFrame(result_a)
+
+    data=df2.values.tolist()
+    print(data)
+    return data
+
+def check_mold_f_tbr(url):
+    res=requests.post(url=url,json={})
+    result=res.json().get("Object")
+    df=pd.DataFrame(result)
+    logger.info(res.status_code)
+    df["ys"] = pd.to_numeric(
+                df["ys"],
+                errors="coerce"
+                ).fillna(0).astype(int)
+
+    df2 = df.loc[ (df["ys"] > 0) &(df["ys"] < 20), ["sbid","dso","ys"]]   #设备id，左右模，计划剩余数量
+    
+    
+        
+    
+
     data=df2.values.tolist()
     print(data)
     return data
 
 
+
+
+
 def check_mold():
     data_list=[]
+    
 
     for k,v in url_map.items():
-        data_list.append(check_mold_f(v))
+
+        if k in (1 , 3):
+            stock_dict=check_wlmc(url_map_stock[k])
+            data_list.append(check_mold_f(v,stock_dict=stock_dict))
+        if k in  (2 , 4) :
+            data_list.append(check_mold_f_tbr(v))
     
     return data_list
 
@@ -180,4 +257,5 @@ def check_mold_f4():
 
 
 if __name__=="__main__":
-    print(check_mold_f("http://10.3.10.62:18080/WebJtggsz/Frm_iQuery"))
+    bool=check_wlmc()
+    print(bool)

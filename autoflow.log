@@ -386,3 +386,163 @@
 2026-08-03 23:43:43.768 | INFO     | __main__:check_mold_f:156 - 200
 2026-08-03 23:45:41.420 | INFO     | __main__:check_mold_f:156 - 200
 2026-08-03 23:46:06.665 | INFO     | __main__:check_mold_f:156 - 200
+2026-08-23 13:26:24.035 | ERROR    | __main__:job2:25 - 'dict' object is not callable
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "/Users/yuli/autoflow/jobs/job.py", line 28, in <module>
+    job2()
+    └ <function job2 at 0x1051c6700>
+
+> File "/Users/yuli/autoflow/jobs/job.py", line 20, in job2
+    a=check_mold()
+      └ <function check_mold at 0x1093cf600>
+
+  File "/Users/yuli/autoflow/jobs/check_mes.py", line 224, in check_mold
+    stock_dict=check_wlmc(url_map_stock(k))
+               │          │             └ 1
+               │          └ {1: 'http://10.3.10.61:18080/WebCxTptj/Frm_iQuery', 2: 'http://10.3.10.62:18080/WebCxTptj/Frm_iQuery', 3: 'http://10.3.10.64:...
+               └ <function check_wlmc at 0x1093cf4c0>
+
+TypeError: 'dict' object is not callable
+2026-08-23 13:29:50.728 | INFO     | jobs.check_mes:check_mold_f:192 - 200
+2026-08-23 13:29:51.021 | ERROR    | __main__:job2:25 - 404 Client Error: Not Found for url: http://10.3.10.62:18080/WebCxTptj/Frm_iQuery
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "/Users/yuli/autoflow/jobs/job.py", line 28, in <module>
+    job2()
+    └ <function job2 at 0x102bd4400>
+
+> File "/Users/yuli/autoflow/jobs/job.py", line 20, in job2
+    a=check_mold()
+      └ <function check_mold at 0x106ddf600>
+
+  File "/Users/yuli/autoflow/jobs/check_mes.py", line 224, in check_mold
+    stock_dict=check_wlmc(url_map_stock[k])
+               │          │             └ 2
+               │          └ {1: 'http://10.3.10.61:18080/WebCxTptj/Frm_iQuery', 2: 'http://10.3.10.62:18080/WebCxTptj/Frm_iQuery', 3: 'http://10.3.10.64:...
+               └ <function check_wlmc at 0x106ddf4c0>
+
+  File "/Users/yuli/autoflow/jobs/check_mes.py", line 174, in check_wlmc
+    res.raise_for_status()
+    │   └ <function Response.raise_for_status at 0x104250a40>
+    └ <Response [404]>
+
+  File "/opt/anaconda3/envs/autoflow/lib/python3.12/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+          │         │                        └ <Response [404]>
+          │         └ '404 Client Error: Not Found for url: http://10.3.10.62:18080/WebCxTptj/Frm_iQuery'
+          └ <class 'requests.exceptions.HTTPError'>
+
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http://10.3.10.62:18080/WebCxTptj/Frm_iQuery
+2026-08-23 13:38:22.166 | INFO     | jobs.check_mes:check_mold_f:192 - 200
+2026-08-23 13:38:22.976 | INFO     | jobs.check_mes:check_mold_f_tbr:219 - 200
+2026-08-23 13:38:23.134 | ERROR    | __main__:job2:25 - 404 Client Error: Not Found for url: http://10.3.10.62:18080/WebCxTptj/Frm_iQuery
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "/Users/yuli/autoflow/jobs/job.py", line 28, in <module>
+    job2()
+    └ <function job2 at 0x1053bc400>
+
+> File "/Users/yuli/autoflow/jobs/job.py", line 20, in job2
+    a=check_mold()
+      └ <function check_mold at 0x111b976a0>
+
+  File "/Users/yuli/autoflow/jobs/check_mes.py", line 246, in check_mold
+    stock_dict=check_wlmc(url_map_stock[k])
+               │          │             └ 2
+               │          └ {1: 'http://10.3.10.61:18080/WebCxTptj/Frm_iQuery', 2: 'http://10.3.10.62:18080/WebCxTptj/Frm_iQuery', 3: 'http://10.3.10.64:...
+               └ <function check_wlmc at 0x111b974c0>
+
+  File "/Users/yuli/autoflow/jobs/check_mes.py", line 174, in check_wlmc
+    res.raise_for_status()
+    │   └ <function Response.raise_for_status at 0x106a38a40>
+    └ <Response [404]>
+
+  File "/opt/anaconda3/envs/autoflow/lib/python3.12/site-packages/requests/models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+          │         │                        └ <Response [404]>
+          │         └ '404 Client Error: Not Found for url: http://10.3.10.62:18080/WebCxTptj/Frm_iQuery'
+          └ <class 'requests.exceptions.HTTPError'>
+
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: http://10.3.10.62:18080/WebCxTptj/Frm_iQuery
+2026-08-23 13:41:13.083 | INFO     | jobs.check_mes:check_mold_f:192 - 200
+2026-08-23 13:41:15.923 | INFO     | jobs.check_mes:check_mold_f_tbr:219 - 200
+2026-08-23 13:41:17.795 | INFO     | jobs.check_mes:check_mold_f:192 - 200
+2026-08-23 13:41:18.456 | INFO     | jobs.check_mes:check_mold_f_tbr:219 - 200
+2026-08-23 13:41:18.459 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:41:18.893 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-23 13:41:18.894 | ERROR    | __main__:job2:25 - list index out of range
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "/Users/yuli/autoflow/jobs/job.py", line 28, in <module>
+    job2()
+    └ <function job2 at 0x1056e4400>
+
+> File "/Users/yuli/autoflow/jobs/job.py", line 21, in job2
+    sent_ding_mold(a)
+    │              └ [[['K109', '右模', -26, 'TH195/70R15C-8PR[SW613]104/102R GOODRIDE(好运)无内 UL', 0], ['K202', '右模', -58, 'THLT285/70R17-10PR[ALL CO...
+    └ <function sent_ding_mold at 0x10987fd80>
+
+  File "/Users/yuli/autoflow/jobs/sent_ding.py", line 61, in sent_ding_mold
+    text22=text22+f'\n\n 机台{item[0]}{item[1]}：计划剩余数：{item[2]}胎胚库存数：{item[3]}'
+           │                │        │               │              └ ['J047', '右模', 4]
+           │                │        │               └ ['J047', '右模', 4]
+           │                │        └ ['J047', '右模', 4]
+           │                └ ['J047', '右模', 4]
+           └ '### 2026-08-23 13:41:00\n\n 换模机台提醒：\n\n---\n\n'
+
+IndexError: list index out of range
+2026-08-23 13:41:45.864 | INFO     | jobs.check_mes:check_mold_f:192 - 200
+2026-08-23 13:41:48.506 | INFO     | jobs.check_mes:check_mold_f_tbr:219 - 200
+2026-08-23 13:41:50.599 | INFO     | jobs.check_mes:check_mold_f:192 - 200
+2026-08-23 13:41:51.223 | INFO     | jobs.check_mes:check_mold_f_tbr:219 - 200
+2026-08-23 13:41:51.226 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:41:51.600 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-23 13:41:51.601 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:41:51.929 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-23 13:41:51.930 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:41:52.566 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-23 13:41:52.567 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:41:52.890 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-23 13:41:52.891 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:41:53.689 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 310000, 'errmsg': '错误描述:关键词不匹配;解决方案:请联系群管理员查看此机器人的关键词，并在发送的信息中包含此关键词;'}
+2026-08-23 13:44:20.965 | INFO     | jobs.check_mes:check_mold_f:192 - 200
+2026-08-23 13:44:23.944 | INFO     | jobs.check_mes:check_mold_f_tbr:219 - 200
+2026-08-23 13:44:26.422 | INFO     | jobs.check_mes:check_mold_f:192 - 200
+2026-08-23 13:44:27.266 | INFO     | jobs.check_mes:check_mold_f_tbr:219 - 200
+2026-08-23 13:44:27.269 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:44:27.661 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-23 13:44:27.662 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:44:27.984 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-23 13:44:27.985 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:44:28.317 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-23 13:44:28.318 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:44:28.648 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-23 13:44:28.649 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:44:28.965 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 310000, 'errmsg': '错误描述:关键词不匹配;解决方案:请联系群管理员查看此机器人的关键词，并在发送的信息中包含此关键词;'}
+2026-08-23 13:46:05.085 | INFO     | jobs.check_mes:check_mold_f:192 - 200
+2026-08-23 13:46:09.028 | INFO     | jobs.check_mes:check_mold_f_tbr:219 - 200
+2026-08-23 13:46:11.431 | INFO     | jobs.check_mes:check_mold_f:192 - 200
+2026-08-23 13:46:12.375 | INFO     | jobs.check_mes:check_mold_f_tbr:219 - 200
+2026-08-23 13:46:12.378 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:46:15.921 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-23 13:46:15.922 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:46:16.487 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-23 13:46:16.488 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:46:16.826 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-23 13:46:16.826 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:46:19.393 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 0, 'errmsg': 'ok'}
+2026-08-23 13:46:19.394 | INFO     | jobs.sent_ding:sent_ding:21 - 发送钉钉消息
+2026-08-23 13:46:19.706 | INFO     | jobs.sent_ding:sent_ding:31 - 钉钉消息响应：{'errcode': 310000, 'errmsg': '错误描述:关键词不匹配;解决方案:请联系群管理员查看此机器人的关键词，并在发送的信息中包含此关键词;'}

@@ -1,6 +1,6 @@
 from jobs.check_mes import check_output_f3_1,check_output_f3_2,check_output_f3_3,check_output_f3_4,check_output_f3_5,check_mold,check_mold_f4
 from jobs.sent_ding import sent_ding_f3,sent_ding_mold,sent_ding_mold_f4
-
+from logger import logger
 #三分厂推送产量任务，计算当前一个小时的硫化成型产量和胎胚库存
 def job1():
     try:
@@ -14,7 +14,7 @@ def job1():
     except Exception as e:
         logger.exception(e)
 
-#mojutuisong 
+#模具推送
 def job2():
     try:
         a=check_mold()
@@ -25,4 +25,4 @@ def job2():
         logger.exception(e)
 
 if __name__=="__main__":
-    job1()
+    job2()
