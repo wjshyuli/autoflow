@@ -1,5 +1,7 @@
 from jobs.check_mes import check_output_f3_1,check_output_f3_2,check_output_f3_3,check_output_f3_4,check_output_f3_5,check_mold,check_mold_f4
-from jobs.sent_ding import sent_ding_f3,sent_ding_mold,sent_ding_mold_f4
+from jobs.sent_ding import sent_ding_f3,sent_ding_mold,sent_ding_mold_f4,sent_ding_taipei
+from jobs.check_mes import check_taipei
+
 from logger import logger
 #三分厂推送产量任务，计算当前一个小时的硫化成型产量和胎胚库存
 def job1():
@@ -24,5 +26,18 @@ def job2():
     except Exception as e:
         logger.exception(e)
 
+
+
+#三分厂胎胚称重异常推送
+def job3():
+    try:
+        test,sent=check_taipei()
+        if sent:
+            sent_ding_taipei(test)
+        
+        
+    except Exception as e:
+        logger.exception(e)        
+
 if __name__=="__main__":
-    job2()
+    job3()

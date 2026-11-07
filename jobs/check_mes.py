@@ -255,6 +255,126 @@ def check_mold_f4():
     return data_list
 
 
+def check_taipei():
+    logger.info("三分厂胎胚称量检查")
+    text=''
+    now = datetime .now().replace(microsecond=0,second=0,)
+    et=(now-timedelta(seconds=1)).strftime("%Y-%m-%d %H:%M:%S")
+    st=(now-timedelta(minutes=5)).strftime("%Y-%m-%d %H:%M:%S")
+
+
+    url = "http://10.3.10.64:18080/WebCxscjl/Frm_iQuery"
+
+    headers = {
+        "Content-Type": "application/json; charset=UTF-8",
+        "Host": "10.3.10.64:18080",
+        "Expect": "100-continue"
+    }
+
+    data = {
+        "state": "1",
+        "startDate": st,
+        "endDate": et,
+        "Groupid": None,
+        "GroupName": None,
+        "TpCode": "",
+        "Djh": None,
+        "Wlxxid": None,
+        "Wlmc": None,
+        "Userid": None,
+        "UserName": None,
+        "Banci": None,
+        "Bz": None,
+        "Sbid": "",
+        "SbName": None
+    }
+
+    response = requests.post(
+        url,
+        headers=headers,
+        json=data,
+        timeout=20
+    )
+
+    res=response.json()
+    res=res.get('Object') or []
+
+
+    df=pd.DataFrame(res)
+
+    if not df.empty:
+        df1 = df.query("SbName in ['3H300', '3H301', '3H302']")
+    else:
+        df1 = pd.DataFrame()
+
+
+
+
+
+    # 按机台分组
+    machine_data = {}
+
+
+
+
+
+
+    if not df1.empty:
+        
+        for index, row in df1.iterrows():
+            tpzl = float(row['tpzl'])
+            bzzl = float(row['bzzl'])
+            pc = (tpzl - bzzl) / bzzl
+
+            ctime = str(row['createdate'])[5:]
+            SbName = row['SbName']
+        
+
+            if abs(pc) > 0.03 and abs(pc) < 0.3:
+
+                
+
+                if SbName not in machine_data:
+                    machine_data[SbName] = []
+
+                machine_data[SbName].append(
+                    f"- 条码：{row['TpCode']}｜"
+                    f"实际重量：{tpzl:.2f}｜"
+                    f"偏差：{pc:.1%}｜"
+                    f"生产时间：{ctime}"
+                )
+
+
+        # 拼接最终消息
+        text = "🔴 **重量偏差异常预警**\n\n"
+        text += "以下为检测到的重量偏差异常记录，请及时关注：\n\n"
+
+        for SbName, records in machine_data.items():
+            text += f"**机台：{SbName}**\n\n"
+
+            for record in records:
+                text += record + "\n"
+
+            text += "\n"
+
+        text += "请相关人员及时核查，确认异常原因并跟进处理。"
+
+
+        
+
+        
+    else:
+        pass
+
+    if machine_data:
+        sent=True
+    else:
+        sent=False
+
+
+    return text,sent
+
+
 
 if __name__=="__main__":
     bool=check_wlmc()

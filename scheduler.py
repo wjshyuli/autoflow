@@ -1,5 +1,5 @@
 from apscheduler.schedulers.background import BackgroundScheduler
-from jobs.job import job1,job2
+from jobs.job import job1,job2,job3
 
 
 
@@ -24,6 +24,15 @@ def start():
         minute="0",
         id="job2",
         name="模具中新推送任务"
+    )
+
+    scheduler.add_job(
+        job3,
+        "cron",
+        minute="*/5",
+        # minute="0",
+        id="job3",
+        name="胎胚称重异常推送"
     )
 
     scheduler.start()

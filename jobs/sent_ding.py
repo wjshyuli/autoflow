@@ -2,7 +2,7 @@ from logger import logger
 import requests
 from datetime import datetime, timedelta
 
-
+#自己的test群
 webhooktest="https://oapi.dingtalk.com/robot/send?access_token=43fbdf590a9c441e4372f0fc6bc2efddf7262a034c2590dcdba7bc180c5502f0"
 # 三分厂产量推送群
 webhook1='https://oapi.dingtalk.com/robot/send?access_token=bd74aace201c4817a74793cc5ef4b92e9e89e4b509b7aee829ae72141fe80591'
@@ -76,7 +76,9 @@ def sent_ding_mold(text_list):
 def sent_ding_mold_f4(text):
     sent_ding(url=webhook6,text=text)
 
-
+def sent_ding_taipei(test):
+    logger.info("三分厂胎胚称量检查")
+    sent_ding(url=webhook1,text=test)
 
 
 if __name__=="__main__":
